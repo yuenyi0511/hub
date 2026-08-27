@@ -1,0 +1,20 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# 数据文件（大文件不入库）
+data/femto_st/*.csv
+data/femto_st/*.zip
+data/mimii/*.wav
+data/mimii/*.zip
+data/simulation/*.csv
+*.onnx
+*.h5
+*.pt
+
+# IDE
+.vscode/
+.idea/
