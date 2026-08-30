@@ -5,10 +5,11 @@ __pycache__/
 venv/
 .env
 
-# 数据文件（直接忽略整个 data 目录）
-data/
+# 数据文件（仅忽略 femto_st 和 mimii 两个大文件夹）
+data/femto_st/
+data/mimii/
 
-# 模型权重
+# 模型权重等其它大文件
 *.onnx
 *.h5
 *.pt

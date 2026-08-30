@@ -1,0 +1,11 @@
+{
+  "model": "ConvAutoEncoder",
+  "dataset": "MIMII",
+  "segment_duration": 1.0,
+  "input_dim": "64x32",
+  "auc_roc": 0.5115019294098633,
+  "f1_score": 0.06703436571913449,
+  "threshold": 3.6215322017669678,
+  "best_val_loss": 1.6658522945183973,
+  "epochs": 20
+}

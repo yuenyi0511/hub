@@ -1,0 +1,47 @@
+{
+  "method": "ResNet18 + Memory Bank KNN + Golden Threshold Search",
+  "average_auc": 0.9650818791124338,
+  "average_f1": 0.6876618076815947,
+  "per_device": [
+    {
+      "device": "fan",
+      "auc_roc": 0.974989898989899,
+      "f1_score": 0.6946107784431138,
+      "precision": 0.5420560747663551,
+      "recall": 0.9666666666666667,
+      "threshold": 2.3607354164123535
+    },
+    {
+      "device": "bearing",
+      "auc_roc": 0.9776720218247954,
+      "f1_score": 0.7369791666666666,
+      "precision": 0.6047008547008547,
+      "recall": 0.9433333333333334,
+      "threshold": 3.9862606525421143
+    },
+    {
+      "device": "gearbox",
+      "auc_roc": 0.961211111111111,
+      "f1_score": 0.6681514476614699,
+      "precision": 0.5016722408026756,
+      "recall": 1.0,
+      "threshold": 2.7265357971191406
+    },
+    {
+      "device": "slider",
+      "auc_roc": 0.9627232323232323,
+      "f1_score": 0.6704161979752531,
+      "precision": 0.5059422750424448,
+      "recall": 0.9933333333333333,
+      "threshold": 3.496176242828369
+    },
+    {
+      "device": "valve",
+      "auc_roc": 0.9488131313131315,
+      "f1_score": 0.6681514476614699,
+      "precision": 0.5016722408026756,
+      "recall": 1.0,
+      "threshold": 2.7080698013305664
+    }
+  ]
+}

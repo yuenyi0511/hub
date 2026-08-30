@@ -1,0 +1,54 @@
+{
+  "segment_duration": 1.0,
+  "epochs": 50,
+  "lr": 0.0003,
+  "average_auc": 0.5223253992486245,
+  "average_f1": 0.10439915426679595,
+  "per_device": [
+    {
+      "device": "fan",
+      "auc_roc": 0.5918161616161617,
+      "f1_score": 0.10526315789473684,
+      "threshold": 1.1279419660568237,
+      "best_val_loss": 0.39519113302230835,
+      "normal_count": 3300,
+      "anomaly_count": 300
+    },
+    {
+      "device": "bearing",
+      "auc_roc": 0.5657542689703952,
+      "f1_score": 0.13307240704500978,
+      "threshold": 0.9242879152297974,
+      "best_val_loss": 0.6214592294259504,
+      "normal_count": 3299,
+      "anomaly_count": 300
+    },
+    {
+      "device": "gearbox",
+      "auc_roc": 0.40564646464646464,
+      "f1_score": 0.05483405483405483,
+      "threshold": 1.7294807434082031,
+      "best_val_loss": 0.9788846563209187,
+      "normal_count": 3300,
+      "anomaly_count": 300
+    },
+    {
+      "device": "slider",
+      "auc_roc": 0.528909090909091,
+      "f1_score": 0.1485884101040119,
+      "threshold": 0.9800840616226196,
+      "best_val_loss": 0.537776153195988,
+      "normal_count": 3300,
+      "anomaly_count": 300
+    },
+    {
+      "device": "valve",
+      "auc_roc": 0.5195010101010101,
+      "f1_score": 0.08023774145616643,
+      "threshold": 1.0269542932510376,
+      "best_val_loss": 0.6116351701996543,
+      "normal_count": 3300,
+      "anomaly_count": 300
+    }
+  ]
+}
