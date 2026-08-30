@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DB10_Vibration 振动数据 -->
+<DB>
+  <Name>DB10_Vibration</Name>
+  <OptimizedBlockAccess>false</OptimizedBlockAccess>
+  <Variables>
+    <Variable Name="vibration_x" Type="Real" InitialValue="0.0" Comment="X轴振动 mm/s" />
+    <Variable Name="vibration_y" Type="Real" InitialValue="0.0" Comment="Y轴振动 mm/s" />
+    <Variable Name="vibration_z" Type="Real" InitialValue="0.0" Comment="Z轴振动 mm/s" />
+    <Variable Name="rms_value" Type="Real" InitialValue="0.0" Comment="振动有效值" />
+  </Variables>
+</DB>

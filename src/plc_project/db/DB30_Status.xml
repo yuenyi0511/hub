@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DB30_Status 运行状态 -->
+<DB>
+  <Name>DB30_Status</Name>
+  <OptimizedBlockAccess>false</OptimizedBlockAccess>
+  <Variables>
+    <Variable Name="runtime_hours" Type="Real" InitialValue="0.0" Comment="累计运行时间 h" />
+    <Variable Name="rpm" Type="Real" InitialValue="1800.0" Comment="转速 rpm" />
+    <Variable Name="load_percent" Type="Real" InitialValue="80.0" Comment="负载百分比 %" />
+    <Variable Name="degradation_level" Type="Real" InitialValue="0.0" Comment="退化程度 0~1" />
+    <Variable Name="fault_type" Type="Int" InitialValue="0" Comment="0正常/1磨损/2不平衡/3不对中" />
+  </Variables>
+</DB>

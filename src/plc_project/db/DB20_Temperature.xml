@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DB20_Temperature 温度数据 -->
+<DB>
+  <Name>DB20_Temperature</Name>
+  <OptimizedBlockAccess>false</OptimizedBlockAccess>
+  <Variables>
+    <Variable Name="bearing_temp" Type="Real" InitialValue="25.0" Comment="轴承温度 ℃" />
+    <Variable Name="motor_temp" Type="Real" InitialValue="30.0" Comment="电机温度 ℃" />
+    <Variable Name="ambient_temp" Type="Real" InitialValue="20.0" Comment="环境温度 ℃" />
+  </Variables>
+</DB>

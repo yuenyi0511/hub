@@ -1,16 +1,14 @@
 ﻿# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
+.egg-info/
 venv/
 .env
 
-# 数据文件（大文件不入库）
-data/femto_st/*.csv
-data/femto_st/*.zip
-data/mimii/*.wav
-data/mimii/*.zip
-data/simulation/*.csv
+# 数据文件（直接忽略整个 data 目录）
+data/
+
+# 模型权重
 *.onnx
 *.h5
 *.pt
